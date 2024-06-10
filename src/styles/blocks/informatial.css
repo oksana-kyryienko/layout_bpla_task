@@ -1,0 +1,45 @@
+.informatial {
+  margin-top: var(--section-marginTop);
+}
+.informatial__chessboard {
+  padding-bottom: var(--boxes-size);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.informatial__box {
+  position: relative;
+  background-color: var(--background-blocks-color);
+  padding: 50px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.informatial__box:nth-child(2),
+.informatial__box:nth-child(4) {
+  transform: translateY(var(--boxes-size));
+}
+
+.informatial__logo {
+  max-width: 100px;
+  transition: filter 0.3s;
+}
+
+.informatial__text {
+  margin-top: 10px;
+  color: #333333;
+}
+
+.informatial__box:hover {
+  background-color: #999999;
+  transform: translateY(-5px);
+}
+
+.informatial__box:hover .informatial__logo {
+  filter: brightness(150%);
+}
+
+.informatial__box:hover .informatial__text {
+  color: #000000;
+}

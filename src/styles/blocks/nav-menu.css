@@ -1,0 +1,5 @@
+.nav-menu {
+  margin-top: var(--section-marginTop);
+  height: 100%;
+  background-image: linear-gradient(to right, aquamarine, rgb(38, 114, 139));
+}

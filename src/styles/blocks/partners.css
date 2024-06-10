@@ -1,0 +1,15 @@
+.partners {
+  margin-top: 30px;
+}
+.partner-logos {
+  background-color: var(--background-partners-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partner-logos img {
+  max-height: 150px;
+  margin: 0 10px;
+}

@@ -1,0 +1,17 @@
+.header {
+  background-image: url(../../sources/header.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  height: 100vh;
+
+  padding: 40px 0 65px;
+}

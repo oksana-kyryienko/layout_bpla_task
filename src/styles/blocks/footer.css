@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  background-image: url(../../sources/footer.jpg);
+  background-size: cover;
+  background-position: 50%;
+}

@@ -1,0 +1,12 @@
+.language-switcher {
+  display: flex;
+  gap: 5px;
+}
+
+.language-switcher__link {
+  color: var(--main-white-color);
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+
+}

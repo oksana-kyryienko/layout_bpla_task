@@ -1,0 +1,21 @@
+.logo--header {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+.logo__image {
+  height: 100px;
+}
+
+@media (min-width: 1024px) {
+  .logo__image {
+    height: 120px;
+  }
+
+  .logo {
+    top: -50px;
+  }
+}

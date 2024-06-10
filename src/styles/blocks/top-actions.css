@@ -1,0 +1,33 @@
+.top-actions {
+  height: 100%;
+
+  position: relative;
+
+  border-right: 1px solid var(--main-white-color);
+  border-bottom: 1px solid var(--main-white-color);
+  border-left: 1px solid var(--main-white-color);
+}
+
+.top-actions::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 87%;
+  height: 1px;
+  background-color: var(--main-white-color);
+  transform: translateY(-50%);
+}
+
+.top-actions__menu {
+  height: 100%;
+
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.top-actions__text {
+  padding: 0 0 10px 50px;
+  width: 30%;
+}

@@ -1,0 +1,68 @@
+.arrow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.left-arrow,
+.right-arrow {
+  display: inline-flex;
+  position: relative;
+  width: 150px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.left-arrow::before,
+.right-arrow::before,
+.left-arrow::after,
+.right-arrow::after {
+  display: inline-flex;
+  position: absolute;
+  content: "";
+}
+
+.left-arrow::before,
+.right-arrow::before {
+  top: 5px;
+  left: 0;
+  width: 150px;
+  height: 1px;
+  background-color: var(--main-white-color);
+}
+
+.left-arrow::after,
+.right-arrow::after {
+  width: 5px;
+  height: 5px;
+  top: 2px;
+}
+
+.left-arrow::after {
+  left: 0;
+  border-top: 1px solid var(--main-white-color);
+  border-left: 1px solid var(--main-white-color);
+  transform: rotate(-45deg);
+}
+
+.right-arrow::after {
+  right: 0;
+  border-top: 1px solid var(--main-white-color);
+  border-right: 1px solid var(--main-white-color);
+  transform: rotate(45deg);
+}
+
+.left-arrow:hover::before,
+.right-arrow:hover::before {
+  background-color: black;
+}
+
+.left-arrow:hover::after {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.right-arrow:hover::after {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
