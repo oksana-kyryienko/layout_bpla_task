@@ -1,0 +1,11 @@
+:root {
+  --main-white-color: #fff;
+  --background-blocks-color: #f0f0f0;
+  --background-partners-color: #cccccc;
+  --font-size: 2rem;
+  --boxes-size: 40px;
+  --section-marginTop: 100px;
+  --card-textBackground: #e2f3e4;
+  --card-title: #076e07;
+  --card-text: #c0bbbb;
+}

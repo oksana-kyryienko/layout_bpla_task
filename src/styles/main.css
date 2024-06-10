@@ -1,3 +1,4 @@
+@import './utils/_variables.css';
 @import './blocks/reset.css';
 @import './blocks/header.css';
 @import './blocks/logo.css';
@@ -14,37 +15,4 @@
 @import './blocks/card.css';
 @import './blocks/animation.css';
 @import './blocks/profit.css';
-
-html,
-body {
-  font-family: 'Nunito Sans', sans-serif;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
-#root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  user-select: none;
-}
-
-:root {
-  --main-white-color: #fff;
-  --background-blocks-color: #f0f0f0;
-  --background-partners-color: #cccccc;
-  --font-size: 2rem;
-  --boxes-size: 40px;
-  --section-marginTop: 100px;
-  --card-textBackground: #e2f3e4;
-  --card-title: #076e07;
-  --card-text: #c0bbbb;
-}
-
+@import './blocks/normalize.css';
